@@ -32,7 +32,7 @@ nav{
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	word-spacing: 10px;
+	
 }
 
 nav ul a{
@@ -57,10 +57,17 @@ nav ul li a{
 .center	{
 	font-size: 2em;
 	margin: auto;
+	word-spacing: 20px;
 }
 .namestyle{
 	font-size: 4em;
-	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.h3 {
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -79,7 +86,7 @@ nav ul li a{
 	<div class="center">
 	<nav>
 		<ul>
-				<li> <a href="#about me"> about me </a></li>
+				<li> <a href="#home"> home </a></li>
 				<li> <a href="#resume"> resume</a></li>
 				<li> <a href="#references"> projects </a> </li>
 				<!--placeholder blog link-->
@@ -92,7 +99,7 @@ nav ul li a{
 
 <div class = "block1">
 <h1 class="namestyle"> IDY AKPAN </h1>
-<h3> Product & Marketing @eBay/StubHub</h3>
+<h3 class="h3"> Product & Marketing @eBay/StubHub</h3>
 
 </div>
 
