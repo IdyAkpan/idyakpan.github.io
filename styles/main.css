@@ -33,12 +33,12 @@ ul {
 	list-style-type: none;
 }
 
-ul li a{
+ a{
 	color: white;
 	text-decoration: none;
 }
 
-ul li a:hover{
+a:hover{
 	color: lightseagreen;
 
 }
@@ -130,7 +130,7 @@ nav a:hover{
 /* Projects */
 
 #projects{
-	margin-bottom: 400px;
+	margin-bottom: 300px;
 	
 	width: 100%;
 	display: block;
