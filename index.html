@@ -2,78 +2,12 @@
 <html>
 <head> 
 	<meta charset="utf-8">
-<link href="m.jones.css" rel="stylesheet" type="text/css" />
+<link rel='stylesheet' href='styles/main.css'>
 <link rel="shortcut icon" href="favicon-256.png" type="image">
 <link href="https://fonts.googleapis.com/css?family=Anton|Lato|Francois+One|Krona+One|Roboto+Condensed" rel="stylesheet">
 <!--href="https://drive.google.com/open?id=1a4bu12ZOGyK5tspl2LRKMSuLsxAOwLKV"-->
 
 <title> Idy Akpan </title>
-
-<style media="screen" type="text/css">
-
-body{background-color: rgba(0, 0, 11, 1);
-	color: white;
-
-}
-
-/*Navigation */
-
-* {
-	font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-nav{
-	text-align: center;
-	width:100%;
-	position: relative;	
-	padding-right: 30px;
-}
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	
-}
-
-nav ul a{
-	text-decoration: none;
-	top:0;
-}
-
-nav ul li a{
-	display: block;
-	color: white;
-	width: 100%
-
-}
-
-.block1{
-	position: relative;
-	padding: 10px;
-	text-align: center;
-	font-size: 2em;
-}
-
-.center	{
-	font-size: 2em;
-	margin: auto;
-	word-spacing: 20px;
-}
-.namestyle{
-	font-size: 4em;
-	padding-top: 1em;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-.h3 {
-	padding: 0;
-	margin: 0;
-}
-
-
-/*Navigation*/
-
-</style>
 
 </head>
 
@@ -81,27 +15,81 @@ nav ul li a{
 
 <body>
 
-
 	<!--Navigation bar -->
-	<div class="center">
+	<div class="navigation">
 	<nav>
 		<ul>
 				<li> <a href="#home"> home </a></li>
 				<li> <a href="#resume"> resume</a></li>
-				<li> <a href="#references"> projects </a> </li>
+				<li> <a href="#projects"> projects </a> </li>
 				<!--placeholder blog link-->
 				<li> <a href="#blog"> blog</a></li>
 			</ul>
 
 		</nav>
 	</div>
-<!--Navigation bar -->
+<!--Navigation bar end -->
 
-<div class = "block1">
+<!-- intro -->
+<div id = "home">
+	<span class="spanstyle1">
 <h1 class="namestyle"> IDY AKPAN </h1>
-<h3 class="h3"> Product & Marketing @eBay/StubHub</h3>
+<h3 class="h3"> Product Manager | Growth Marketer @eBay/StubHub</h3>
+</span>
+</div>
+<!-- intro end -->
+
+<!-- resume -->
+<div id = "resume">
+	<span class="spanstyle">
+		<h2> Resume </h2>
+<embed src="assets/resume.pdf#toolbar=0&view=fitW&page=1&zoom=150" type="application/pdf" width="100%" height="500px" />
+</span>
+</div>
+<!-- resume end -->
+
+<!-- projects -->
+<div id=projects>
+	<span class=spanstyle>
+	<h2> Projects <br> I've built a couple of interesting web apps. Take a look! </h2>
+	<ul>
+		<li> <a href="pages/MusicShuffle/index.html"> MusicShuffle App </a></li>
+		<li> Date Idea Randomizer </li>
+	</ul>
+</span>
+	</div>
+
+<!-- projects end -->
+
+<!-- blog -->
+<div id = "blog">
+	<span class="spanstyle">
+		<h2> Blog </h2>
+<ul>
+		<li> MusicShuffle App </li>
+		<li> Date Idea Randomizer </li>
+	</ul>
+</span>
+</div>
+<!-- blog end -->
+
+
+
+
+<!-- footer -->
+<div class="footer"> 
+	<table align="center">
+		<tr>
+			<td> <a href="#home">Home </a></td>
+			<td> <a href="#resume">Resume</a> </td>
+			<td> <a href="#projects"> Projects </a></td>
+		</tr>
+	</table>
+	<p>Idy Akpan 2018&#169;</p>
 
 </div>
+
+<!-- footer end -->
 
 </body>
 </html>

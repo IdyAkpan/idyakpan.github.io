@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="LoveExp - Want to be the best partner ever!?">
+		<meta name="keywords" content="love, romance, friendship, dates">
+
+		<title>Love Exp</title>
+		<style>
+
+		*{
+			font-family: sans-serif;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 3em;
+			text-align: left;
+			
+		}
+
+		body{
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		</style>
+		
+		<body background="love.jpg">
+			<h3> Welcome to Love Expeditions.com! <br> We're really excited to share our winning #RelationshipGoals Valentine's gift ideas that you can surprise your partner with. </h3>
+		<!-- external CSS link -->
+		<!--<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css"> -->
+		
+
+		<script>
+					
+		   		var pronoun = prompt("How do you refer to your partner: as him or her?");
+
+					
+			// Our List of Places
+			var place = [
+				'Greenland',
+				'Timbuktu',
+				'Canada',
+				'Ukraine',
+				'Burma',
+				'North Korea' 
+			];
+
+			// Our List of Gifts
+			var gift = [
+				'bread',
+				'a set of fine tupperware',
+				'a fire extinguisher',
+				'a usb stick',
+				'some cheese'
+				 
+			];
+			console.log(gift)
+			var placeRandomNumber = Math.floor(Math.random()*place.length)
+			var giftRandomNumber = Math.floor(Math.random()*gift.length)
+			
+			var placename = place[placeRandomNumber];
+			var giftname = gift[giftRandomNumber];
+
+			var placeImage =document.getElementById("placeImage");
+			var giftImage=document.getElementById("giftImage");
+			console.log(placename)
+
+			document.write("<h1>How about you take " + pronoun + " to <strong><br><font color='acqua'>" + placename + "</font><br></strong> and surprise "+ pronoun+ " with <br><strong><font color='red'> " +giftname + "</font></strong>??!</h1>");
+			
+			/*if (gift[0]) {
+				imgElement.src=placename + ".jpg";
+    		imgElement.style.visibility= 'visible';
+			} else {
+				document.getElementById("placeImage").style.visibility="hidden";
+			}
+			*/
+			
+
+
+		</script>
+	</head>
+	<body>
+
+		<!--<img src="Greenland.jpg" id="placeImage" alt="Greenland" height="200" />
+		<img src="bread.jpg" id="giftImage" alt="bread" height="200" /> -->
+
+		
+		<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+
+
+
+	</body>
+</html>

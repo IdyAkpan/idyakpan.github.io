@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="name" id="firstField"/>
+        <img src="Greenland.jpg" style="display: none; background: #000;" id="image"/>
+        <img src="Timbuktu.jpg" style="display: none; background: #ff0000;" id="image2"/>
+        <input type="text" name="name" id="secField" onchange="equals()"/>
+    </form>
+</body>
+
+<script type="text/javascript">
+    var firstField = document.getElementById('firstField');
+    var secField =   document.getElementById('secField');
+    var image =    document.getElementById('image');
+    var image2 =    document.getElementById('image2');
+
+    function equals() {
+        if(firstField.value == secField.value) {
+            image.style.display = 'block';
+            image2.style.display = 'none';
+        }
+        else {
+            image.style.display = 'none';
+            image2.style.display = 'block';
+        }
+    }
+    firstField.onkeyup = equals;
+    secField.onkeyup = equals;
+
+
+</script>
+</html>
