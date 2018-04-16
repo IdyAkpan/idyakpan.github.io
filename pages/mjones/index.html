@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+<link href="m.jones.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+<link href='/Users/Ideewhy/Box Sync/Public/M. Jones/Fabrica.otf' rel='stylesheet' type='text/css'>
+<!-- <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet" type="text/css"> --> 
+<title> M. Jones Accounting </title>
+
+<style>
+    @font-face {
+    font-family: 'Fabrica'; /*a name to be used later*/
+    src: url('Fabrica.otf'); /*URL to font*/
+}
+
+
+/* font fam News Cycle for all elements */
+* {
+	font-family: 'Fabrica', sans-serif;
+}
+/*Navigation */
+nav{
+	width:100%;
+	position: absolute;
+	top:0;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+
+nav ul a{
+	text-decoration: none;
+	top:0;
+}
+
+nav .pull-right {
+	float: right!important;
+	margin-right: 60px;
+}
+nav ul li a{
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #000;
+	word-spacing: 2px;
+
+}
+
+nav ul li a:hover{
+	color: #e59703;
+}
+
+
+
+
+
+
+/* Page focus */
+
+.big1{
+	background-image:url('http://i.imgur.com/RrVpcOq.jpg');
+
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	margin-left: -10px;
+	padding: 30px;
+	position: relative;
+	
+	
+} 
+
+.big1 .big2{
+	position: relative;
+	top:40px;
+
+}
+
+.big1 h1{
+	color:white;
+	font-size: 60px;
+	font-weight: bold;
+	margin-left: 700px;
+	text-align: right;
+
+}
+
+.big1 p{ /* 1st caption */
+font-size: 20px;
+text-align: right;
+color: #FFF8F8;
+
+}
+
+.button{
+	padding: 10px;
+	background-color: transparent; 5b3e92; F2B705;
+	border: 1px solid #f0f0f0;
+	color: whitesmoke;
+	text-decoration: none;
+	float: right;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.big1 .big2 a:hover{
+	background-color: #e59703;
+}
+
+/* Direction */
+.bigblock {
+	background-color: #fff;
+	height: 200px;
+	margin: 10px 0px -30px 0px;
+	background-repeat: repeat;
+
+}
+
+
+/* details */
+.about-pic{
+	float: right!important;
+	
+	width: 0px;
+	margin-left: 0px;
+	padding-left: 40px;
+
+}
+
+.about{
+	
+	background-color: white;
+	margin-top: 30px;
+	padding: 10px;
+	height: 600px;
+	width: 500px;
+
+	
+
+}
+
+
+.about .line1{
+	color: #e59703;
+}
+
+.about h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+.about h4{
+	font-size: 30px;
+}
+
+.about h2 p{
+	font-size: 32px;
+	text-transform: none;
+	border-color: #fff;
+	text-transform: uppercase;
+	text-align: left;
+
+}
+.about h3{
+	padding-top: 50px;
+}
+
+.about li{
+	text-transform: none;
+}
+
+
+
+/* Services */
+.services-image{
+	float: left;
+	padding-right: 40px;
+}
+
+.services{
+	height: 600px;
+	padding: 10px;
+	position: relative;
+	background-image: url('http://i.imgur.com/AmE4e2H.jpg');
+	background-size: cover;
+	/*background-color: #2081b6;
+	/*background: linear-gradient(to top right, gray , black); */
+	z-index: 2;
+}
+
+
+.line2{
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+
+.services h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	padding-top: 30px;
+	color: #fff;
+	text-align: center;
+
+
+
+}
+
+.services p{
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+tr{
+	color: #fff;
+	text-align: center;
+
+}
+
+
+.row2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+.learn-services{
+	margin-top: 40px;
+	text-align: center;
+
+}
+
+.learn-services p a{
+	text-decoration: none;
+	color: #f0f0f0;
+	font-size: 14px;
+
+}
+
+.learn-services a:hover{ 
+color: gold;
+}
+
+/* Clients */
+#clients{
+	height:350px;
+	padding-top: 100px;
+	background-color: #f8f6f6;
+}
+
+
+#clients h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-style: bolder;
+	letter-spacing: 2px;
+}
+.line3{
+color: gold;
+}
+
+#clients .container{
+	padding: 20px;
+}
+
+#clients tr{
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding: 20px;
+	letter-spacing: 1px;
+
+	
+}
+
+#clients tr td{
+	padding: 0px 45px 0px 45px;
+}
+
+
+
+
+
+/* Contact */
+#contact{
+	height:500px;
+	background-color: #fff;
+	padding-top: 10px;
+	width: 100%;
+	background-size: cover;
+	padding-top: 50px;
+
+}
+
+
+#contact h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#contact h3{
+	
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+#contact td{
+	text-align: left;
+	padding-right: 20px;
+	font-family: 'Fabrica', sans-serif;
+}
+
+#contact tr{
+	color: #000;
+}
+	
+/* Footer */
+.footer{
+	background-color: whitesmoke;
+	height: 80px;
+	padding-top: 40px;
+}	
+.footer tr{
+	padding-right: 60px;
+}
+.footer td{
+	color: #000;
+	font-family: 'Heveltica', sans-serif;
+	font-size: 14px; 
+	padding-right: 50px;
+}
+
+.footer p{
+	font-family: 'Heveltica', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 20px;
+	color: darkslategrey;
+
+}
+
+.footer td a{
+	text-decoration: none;
+	color: grey;
+
+}
+
+.footer td a:hover{
+	color:#e59703;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+	<!--Navigation bar -->
+	<div>
+	<nav>
+		
+		<ul>
+			
+			<li> <a href="#"> M. Jones Accounting </a></li>
+		
+				<div class="pull-right">
+					<li> <a href="#about"> About Us </a></li>
+					
+				<li> <a href="#services"> Services </a></li>
+				<li> <a href="#clients"> Our Clients </a> </li>
+				<li> <a href="#contact"> Contact Us</a></li>
+			
+			</div>
+			</ul>
+
+		</nav>
+	</div>
+
+<!-- Page focus -->
+<div class="big1">
+	<div class="big2">
+		<h1> Missed tax season again? </h1>
+		<p> Find out how you can make up for lost time. </p>
+
+<a class="button" href="#services"> Learn more </a>			
+	</div>
+</div>
+
+
+
+<!--About Us --> 
+<div id="about">
+<div class="about">
+	<div class ="container">
+		<h2> About Us </h2>
+			<div class="line1"> &mdash;  </div>
+
+			 <div class="about-pic"> <img src="http://i.imgur.com/HW7Lkr2.jpg" width="500" height="380" alt="About Us" ></div> 
+			
+			<h4 class="boutique"> 
+				M. Jones Accounting is a boutique family accounting firm located in the heart of uptown New York City's Highbridge neighborhood. 
+			</h4>
+		</div>
+		
+			<p>
+				 Our focus is on the legal needs of families of all shapes and sizes and we take pride in providing supportive and effective legal services to people in times of stress.  We take a fresh and effective approach to family accounting.
+				</p>
+			
+			
+			<h3> Our Values</h3>
+			<p>
+				<ul>
+				<li> Trust </li> 
+				<li> Faith </li> 
+				<li> Diligence </li> 
+				<li> Integrity </li> 
+			</ul>
+			</p>
+		
+		
+			
+		</div>
+
+<!-- Services -->
+<div id="services">
+	<div class="overlay">
+<div class="services">
+	<div class="container">
+		<h2 class="header"> Our Services </h2>
+		<div class="line2"> <hr noshade size=2 hr color="#fff" width="5%"></div>
+			<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus laoreet mattis. Sed quis orci eget ligula ultricies porttitor. 
+			</p>
+
+			
+				<table style="width:100%">
+  <tr>
+    <td><img src="http://i.imgur.com/b7nHOIS.png"></td>
+    <td><img src="http://i.imgur.com/KZwNmtS.png"></td>
+    <td><img src="http://i.imgur.com/zaQF5l8.png"></td>
+  </tr>
+  <tr class="row2">
+    <td>Invoice</td>
+    <td>Accounts Receivable</td> 
+    <td>Taxes</td>
+  </tr>
+  <tr>
+    <td>Sed quis orci eget ligula ultricies porttitor. </td>
+    <td>Sed quis orci eget ligula ultricies porttitor.</td> 
+    <td>Sed quis orci eget ligula ultricies porttitor.</td>
+  </tr>
+</table>
+<div class="learn-services">
+	<br>
+<p> <a href="#"> Click here to learn about all our available services. </a></p> 
+</div>
+
+		</div></div>
+	</overlay>
+	</div>
+
+
+
+<div id="clients">
+	
+	<h2> Some of our clients
+		<div class="line3"> <hr noshade size=2 hr color="#e59703" width="3%"></div>
+	</h2>
+	<div class="container">
+		<table align="center">
+		<tr class="row3">
+		<td> <img src="http://i.imgur.com/sb0nOn4.png"> </td>
+		<td> <img src="http://i.imgur.com/7ewhbF0.png"> </td>
+		<td> <img src="http://i.imgur.com/3XoAhRE.png"> </td>
+		<td> <img src="http://i.imgur.com/QX98tjx.png"> </td>
+		<td> <img src="http://i.imgur.com/HThetu6.png"> </td>
+		
+		</tr>
+	
+</table>
+
+	</div>
+	</div>
+
+
+<!--Contact-->
+<div id="contact">
+	<div class="container">
+		<h2> Contact Us 
+		<div class="line4"> <hr noshade size=2 hr color="#e59703" width="3%"></div>
+	</h2>
+		
+
+		<table align="center">
+			
+			<tr>
+				<td> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24146.461311825686!2d-73.91775063757325!3d40.84316849493534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f415b1118c2d%3A0x22bbdc8313d99871!2s1072+Grand+Ave%2C+Bronx%2C+NY+10453!5e0!3m2!1sen!2sus!4v1419310275371" width="600" height="300" frameborder="0" style="border:0"></iframe> </td>
+				<td> </td>
+				<td> <h3>Get in touch with us and see how we can help you get started. <br></h>
+					<br> <span style="font-weight:bold">Address</span>: 1072 Grand Avenue Bronx, NY 10453
+					<br> <span style="font-weight:bold">Phone</span>: 718.555.5555
+					<br> <span style="font-weight:bold">Fax</span>: 718.556.6666
+					<br> <span style="font-weight:bold">Email</span>: <span style="color:#e59703">contact@mjones.accounting</span>
+					<br> <span style="font-weight:bold">Website</span>: <span style="color:#e59703">www.mjones.accounting</span>
+				
+				</td>
+			</tr>
+		</table>
+
+
+
+	</div>
+</div>
+
+
+
+<div class="footer"> 
+	<table align="center">
+		<tr>
+			<td> <a href="#contact">Contact </a></td>
+			<td> <a href="#services">Services</a> </td>
+			<td> <a href="#about"> About Us </a></td>
+		</tr>
+	</table>
+	<p>M. Jones Accounting 2014&#169;</p>
+
+</div>
+
+</body>
+
+</html>
